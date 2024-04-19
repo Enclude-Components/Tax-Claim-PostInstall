@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Extra Permissions for Tax Claim if using NPC</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GiftTransaction.Non_Taxed_Income__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>GiftTransaction.Tax_Claimed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tax Claim NPC</label>
+</PermissionSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Includes Tax Claimed and Tax Claimed NPC permission sets</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tax Claimed with NPC</label>
+    <permissionSets>Tax_Claim_NPC</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

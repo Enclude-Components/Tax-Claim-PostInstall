@@ -1,0 +1,26 @@
+minimum_cumulusci_version: '3.85.0'
+project:
+    name: Tax-Claim-PostInstall
+    package:
+        name: Tax-Claim-PostInstall
+        namespace: enc_cds
+        api_version: '60.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Tax-Claim-PostInstall/tests
+            options:
+                outputdir: robot/Tax-Claim-PostInstall/results
+
+    robot_testdoc:
+        options:
+            path: robot/Tax-Claim-PostInstall/tests
+            output: robot/Tax-Claim-PostInstall/doc/Tax-Claim-PostInstall_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

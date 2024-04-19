@@ -1,0 +1,55 @@
+{
+  "orgName": "Tax-Claim-PostInstall - Dev Org",
+  "edition": "Developer",
+  "features": [
+    "AccountingSubledgerGrowthEdition",
+    "AnalyticsQueryService",
+    "Assessments",
+    "DataProcessingEngine",
+    "DecisionTable",
+    "DocumentChecklist",
+    "EnableSetPasswordInApi",
+    "ForceComPlatform",
+    "Fundraising",
+    "Grantmaking",
+    "IndustriesActionPlan",
+    "IndustriesSalesExcellenceAddOn",
+    "IndustriesServiceExcellenceAddOn",
+    "MarketingUser",
+    "NonprofitCloudCaseManagementUser",
+    "OmniStudioDesigner",
+    "OmniStudioRuntime",
+    "OutcomeManagement",
+    "PersonAccounts",
+    "ProgramManagement",
+    "PublicSectorAccess"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "industriesSettings": {
+      "enableBenefitManagementPreference": true,
+      "enableBenefitAndGoalSharingPref": true,
+      "enableCarePlansPreference": true,
+      "enableOutcomes": true,
+      "enableFundraising": true,
+      "enableGroupMembershipPref": true    
+    }
+  }
+}

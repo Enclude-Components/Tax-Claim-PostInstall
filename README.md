@@ -20,3 +20,9 @@ To retrieve changes
     cci task run retrieve_changes --org dev --types CustomField,PermissionSet,PermissionSetGroup --exclude force__
 Release unlocked package
     cci flow run release_unlocked_beta --org dev
+
+## Deploy
+<a href="https://githubsfdeploy.herokuapp.com?owner=Enclude-Components&repo=Tax-Claim-PostInstall&ref=master">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>

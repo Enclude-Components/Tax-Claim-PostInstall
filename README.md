@@ -15,7 +15,7 @@ To work on this project in a scratch org:
 3. Run `cci org browser dev` to open the org in your browser.
 
 To see changes
-    cci task run list_changes --org dev --types CustomField,PermissionSet,PermissionSetGroup --exclude force__
+    cci task run list_changes --org dev --exclude force__,Expla*,BusinessProcessTypeDefinition,TimelineObjectDefinition,DocumentFolder,Document,ApplicationSubtypeDefinition,UtilityBar,AppMenu,Identity
 To retrieve changes
     cci task run retrieve_changes --org dev --types CustomField,PermissionSet,PermissionSetGroup --exclude force__
 Release unlocked package
